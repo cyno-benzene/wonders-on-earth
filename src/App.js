@@ -1,5 +1,5 @@
 import './styles.css';
-import SpaceCanvas from './components/SpaceCanvas';
+import SpaceCanvas from './SpaceCanvas';
 
 function App() {
   return (
