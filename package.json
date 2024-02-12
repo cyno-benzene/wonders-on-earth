@@ -38,6 +38,7 @@
   "devDependencies": {
     "@react-three/drei": "^9.97.4",
     "@react-three/fiber": "^8.15.16",
+    "@react-three/postprocessing": "^2.16.0",
     "gltf-pipeline": "^4.1.0",
     "three": "^0.161.0"
   }
