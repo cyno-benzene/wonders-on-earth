@@ -7,15 +7,18 @@ Source: https://sketchfab.com/3d-models/earth-f7a76c63ff1846afb2d606e5c8369c15
 Title: Earth
 */
 
-import React, { useRef } from 'react'
-import { useGLTF } from '@react-three/drei'
+import React from 'react'
+import { useGLTF } from '@react-three/drei';
 
-export default function EarthModel(props) {
+export default function EarthModel() {
   const { nodes, materials } = useGLTF('earth.gltf')
   return (
-    <group {...props} dispose={null}>
+    <>
+    <group dispose={null}>
       <mesh geometry={nodes.Object_4.geometry} material={materials['Scene_-_Root']} scale={1.128} />
+
     </group>
+    </>
   )
 }
 
